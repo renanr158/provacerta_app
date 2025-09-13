@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../CSS\geometriaplana_1.css">
+    <link rel="stylesheet" href="../../../stylepopup.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <title>Estudos</title>
+</head>
+
+<body>
+
+    <div id="pre-loader">
+
+    </div>
+
+    <div class="box1">
+        <h1 id="title01">Exercício 3</h1>
+        </div>
+
+
+
+    <div class="enunciado">
+
+        <div class="box-enunciado" style="height: 40vw;">
+            
+            <div class="texto-enunciado">
+                 Qual é o máximo divisor comum (MDC) entre 36 e 48?
+            </div>
+
+        </div>
+
+    </div>
+
+<!-- 
+            <li>6</li>
+            <li>8</li>
+            <li>12</li>
+            <li>16</li>
+ -->
+
+
+    <div class="alternativas">
+
+        <!-- Letra A -->
+
+
+        <div onclick="openPopup2()" class="opcao">
+            <div class="letra-fundo">
+                <div class="letra">A</div>
+            </div>
+
+            <!--Esse texto editavel-->
+            <div class="text-opcao">
+                <div class="letra2"><strong>6</strong></div>
+            </div>
+        </div>
+  
+
+
+
+        <!-- Letra B -->
+
+    
+        <div onclick="openPopup2()" class="opcao">
+            <div class="letra-fundo">
+                <div class="letra">B</div>
+            </div>
+            
+            <!--Esse texto editavel-->
+            <div class="text-opcao">
+                <div class="letra2"><strong>8</strong></div>
+            </div>
+        </div>
+    
+
+
+        <!-- Letra C -->
+
+            <div onclick="openPopup()" class="opcao">
+            <div class="letra-fundo">
+                <div class="letra">C</div>
+            </div>
+
+            <!--Esse texto editavel-->
+            <div class="text-opcao">
+            <div class="letra2"><strong>12</strong></div>
+            </div>
+        </div>
+
+
+        <!-- Letra D -->
+
+       
+        <div onclick="openPopup2()" class="opcao marginfooter">
+            <div class="letra-fundo">
+                <div class="letra">D</div>
+            </div>
+
+            <!--Esse texto editavel-->
+            <div class="text-opcao">
+                <div class="letra2"><strong>16</strong></div>
+            </div>
+        </div>
+     
+
+    </div>
+
+
+    <!--Footer-->
+    <div>
+        <div class="footer fixed">
+            <div id="footerimg">
+                <a href="../EX-MD.html">
+                    <div id="circlefooter">
+                        <img id="imgfooter" src="../../../images/backbutton.png" alt="">
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+   
+
+        <!--Codigo Popup de acerto(func="openPopup()")-->
+
+        <div class="backgroundblack" id="backgroundblack">
+        <div class="popup" id="popup">
+            <div class="alignboxitems">
+                <div class="titulo-popup"><h1>Resposta Certa!</h1></div>
+
+                <div class="bt-box">
+                <a class="btnoption" type="button" href="../../index-gp.html" onclick="closePopup()">
+                    <div class="text-bt" >
+                        Início
+                    </div>
+                </a>
+                    <a class="btnoption" type="button" href="../RE/RE2.html" onclick="closePopup()">
+                        <div >
+                            Resolução
+                        </div>
+                    </a>
+                </div>
+        </div>
+        </div>
+        </div>
+
+        <!--Codigo Popup de erro(func="Popup2()"-->
+
+        <div class="backgroundblack2" id="backgroundblack2">
+         <div class="popup2" id="popup2">
+            <div class="alignboxitems">
+                <div class="titulo-popup"><h1>Resposta Errada!</h1></div>
+
+                <div class="bt-box">
+                <a class="btnoption" type="button" href="../RE/RE2.html" onclick="closePopup2()">
+                    <div class="text-bt" >
+                        Resolução
+                    </div>
+                </a>
+                    <a class="btnoption" type="button" onclick="closePopup2()">
+                        <div >
+                            Novamente
+                        </div>
+                    </a>
+                </div>
+        </div>
+        </div>
+        </div>
+
+<script src="../../../script.js"></script>
+        <script>
+            var loader = document.getElementById("pre-loader");
+
+            window.addEventListener("load", function () {
+                setTimeout(function () {
+                    loader.style.display = "none";
+                }, 3000);
+            });
+
+
+            
+
+        </script>
+        
+        
+
+</body>
+
+</html>
