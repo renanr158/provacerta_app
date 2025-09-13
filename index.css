@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.centerthings{
+  width: 100vw;
+  
+
+  text-align: center;
+}
+
+.logointro{
+    margin-top: 10vw;
+    width: 50vw;
+    height: 50vw;
+
+    -moz-user-select: none;
+-webkit-user-select: none;
+user-select: none;  
+
+}
+
+#avancarintro{
+    position: absolute;
+
+    background-color: #FF8B43;
+
+    margin-top: -10vw;
+    width: 50vw;
+    height: 10vw;
+    font-size: 5vw;
+    border-radius: 20px;
+
+font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+
+  color: white;
+    -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+
+  border:black solid 2px;
+
+  box-shadow: 30px 40px 40px 1px rgba(0, 0, 0, 0.644);
+
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 95%;
+}
+
+@media screen and (max-width: 480px){
+.logointro{
+  margin-top: 30vw;
+  width: 60vw;
+  height: 60vw;
+}
+
+#avancarintro{
+  width: 80vw;
+  height: 20vw;
+  font-size: 8vw;
+  margin-top: -30vw;
+  box-shadow: 20px 30px 30px 1px rgba(0, 0, 0, 0.644);
+
+  -webkit-text-stroke-width: 1px;
+}
+    
+}
