@@ -521,7 +521,7 @@ z-index: 100;
 .box-enunciado{
   width: 90%;
   height: 60vw;
-  background-color: #FF7475;
+  background-color: #916CFF;
   border-radius: 30px;
   border: solid 2px black;
   display: flex;
@@ -555,7 +555,7 @@ z-index: 100;
   width: 90%;
   height: 18vw;
   border-radius: 34px;
-  background-color: #FF7475;
+  background-color: #916CFF;
   margin-top: 5vw; 
   position: relative;
   border: solid 2px black;
